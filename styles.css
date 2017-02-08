@@ -1,0 +1,71 @@
+/* General */
+body {
+    font-family: arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+/* Main Section*/
+
+#google_image img, #search_box form input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#google_image {
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+#search_box form input {
+    height: 44px;
+    width: 40%;
+}
+
+
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer a {
+    color: #666;
+    font-size: 0.8em;
+    display: inline-block;
+    padding: 15px 0 15px 27px;
+}
+
+#footer_right {
+    float: right;
+}
+
+#footer_right a:nth-child(4) {
+    padding-right: 27px;
+}
+
+#footer_left {
+    float: left;
+}
